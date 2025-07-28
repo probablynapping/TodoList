@@ -22,6 +22,7 @@ struct ContentView: View {
                     withAnimation{
                         showNewTask = true
                     }
+                    //add if statements to make it collapse on press?
                 }label: {
                     Text("+")
                         .font(.title)
